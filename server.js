@@ -34,8 +34,8 @@ app.get("/", (req, res) => {
 <body>
   <h1>Campus Maintenance Requests API</h1>
   <p><strong>Project:</strong> Campus Maintenance Requests (ICT251 Activity 7)<br>
-  <strong>Student name:</strong> Haggai Mukwala<br>
-  <strong>Student number:</strong> REPLACE_WITH_YOUR_STUDENT_NUMBER</p>
+  <strong>Student name:</strong> Haggai Change<br>
+  <strong>Student number:</strong>202510305</p>
   <p>This API stores maintenance requests in a PostgreSQL database. Any client that follows the format below can read and change records.</p>
   <p><strong>Base URL:</strong> this page's address. Quick checks: <a href="/health">/health</a> and <a href="/api/records">/api/records</a>.</p>
 
