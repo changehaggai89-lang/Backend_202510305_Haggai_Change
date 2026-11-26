@@ -6,7 +6,7 @@ const recordRoutes = require("./routes/records");
 
 const app = express();
 
-const origins = (process.env.CLIENT_ORIGINS || "http://localhost:5500,http://127.0.0.1:5500")
+const origins = (process.env.CLIENT_ORIGINS || "http://localhost:5500,http://127.0.0.1:5500,https://frontend-haggai-change-202510305.netlify.app")
   .split(",")
   .map(value => value.trim())
   .filter(Boolean);
